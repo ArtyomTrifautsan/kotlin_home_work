@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="screen_text_2">Привет, мир!</string>
+    <string name="buuton_text_2">Нажми меня</string>
+</resources>
