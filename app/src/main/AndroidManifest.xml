@@ -25,6 +25,7 @@
 
         <activity
             android:name=".SecondActivity"
+            android:theme="@style/Theme.AppCompat"
             android:exported="false" />
     </application>
 
