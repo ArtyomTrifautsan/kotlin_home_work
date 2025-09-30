@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="screen_text_2">Привет, мир!</string>
-    <string name="buuton_text_2">Нажми меня</string>
+
+    <string name="main_activity_text">Первый Активити</string>
+    <string name="main_activity_text2">Логин</string>
+    <string name="main_activity_text3">Пароль</string>
+    <string name="main_activity_button">Нажми меня срочно</string>
+    <string name="main_activity_email">Email</string>
+    <string name="main_activity_password">Email</string>
+
+    <string name="second_activity_text">Привет, мир!</string>
+    <string name="second_activity_button">Лев легенда</string>
+
 </resources>

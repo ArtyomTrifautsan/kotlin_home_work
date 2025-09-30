@@ -11,12 +11,18 @@ class SecondActivity : AppCompatActivity() {
         setContentView(R.layout.activity_second)
 
         // Находим элементы по ID
-        val textView = findViewById<TextView>(R.id.textView)
-        val button = findViewById<Button>(R.id.button)
+        val textView = findViewById<TextView>(R.id.textView2)
+        val button = findViewById<Button>(R.id.button2)
+        val backButton = findViewById<Button>(R.id.btnBack)
 
         // Устанавливаем обработчик нажатия на кнопку
         button.setOnClickListener {
             textView.text = "Кнопка нажата!" // меняем текст
+        }
+
+        // Обработчик для кнопки назад
+        backButton.setOnClickListener {
+            finish() // Закрываем текущую активити и возвращаемся назад
         }
     }
 }
